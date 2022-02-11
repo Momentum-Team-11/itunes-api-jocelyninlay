@@ -1,0 +1,18 @@
+.music {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.musiccard {
+  display: grid;
+  padding: 2em;
+}
+img {
+    height: 150px;
+    width: auto;
+}
+
+
+.track0, .track1, .track2, .track3, .track4, .track5, .track6 {
+    font-weight: bolder;
+}
