@@ -6,19 +6,13 @@ form.addEventListener("submit", function (event){
     const formData = new FormData(event.target);
    const asString = new URLSearchParams(formData).toString('');
    console.log(asString);
-})
-
-let url = URL(`https://itunes.apple.com/search?term=${asString}`)
-//     let params = URLSearchParams(url.search);
-//     params.append('','');
-
+  let url = (`https://itunes.apple.com/search?${asString}`)
 fetch(url)
 .then(function(response){
     console.log(response)
     return response.json()
 })
 .then (function(data){
-    console.log(data)
-    
-    
-})
+    console.log(data) 
+
+})}) 
