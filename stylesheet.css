@@ -1,11 +1,18 @@
-.music {
-    display: flex;
-    justify-content: space-around;
+#form {
+    
+}
+
+#music {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
     
 }
 .musiccard {
-  display: grid;
   padding: 2em;
+  border: 1px inset lightgrey;
+  height: 300px;
+  width: 300px;
 }
 img {
     height: 150px;
