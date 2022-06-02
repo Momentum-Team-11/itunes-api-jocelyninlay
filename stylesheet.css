@@ -1,0 +1,25 @@
+#form {
+    
+}
+
+#music {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    
+}
+.musiccard {
+  padding: 2em;
+  border: 1px inset lightgrey;
+  height: 300px;
+  width: 300px;
+}
+img {
+    height: 150px;
+    width: auto;
+}
+
+
+.track0, .track1, .track2, .track3, .track4, .track5, .track6 {
+    font-weight: bolder;
+}
